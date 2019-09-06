@@ -1,117 +1,71 @@
 const SHOP_DATA = {
-  hats: {
+  accessories: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'accessories',
+    routeName: 'accessories',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        name: 'Reversible Paisley',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A7AMU0498A340-VINTAG-REVERSIBLE-PAISLEY-PRINT-BUCKET-HAT-01-thumbnail-1216x1216-70.jpg',
         price: 25,
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        name: 'Black Reverible Paisley',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A7AMU0556A395-BLACK-REVERSIBLE-PAISLEY-PRINT-BUCKET-HAT-01-thumbnail-540x540-70.jpg',
         price: 18,
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        name: 'Black Suede',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A7AMU0493A335-BLACK-SUEDE-HAT-01-thumbnail-1216x1216-70.jpg',
         price: 35,
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        name: 'Smiley',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/S9AMU25000102-WHITE-SMILEY-SMOKE-PRINT-BUCKET-HAT-01_new-thumbnail-1216x1216-70.jpg',
         price: 25,
-      },
-      {
-        id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18,
-      },
-      {
-        id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14,
-      },
-      {
-        id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18,
-      },
-      {
-        id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14,
-      },
-      {
-        id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16,
       },
     ],
   },
-  sneakers: {
+  footwear: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'footwear',
+    routeName: 'footwear',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        name: 'Brown Leathers',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/F7GMU2580F055-TAN-LEATHER-DESERT-BOOT-02-thumbnail-1560x1560-70.jpg',
         price: 220,
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        name: 'Black Desert',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/FJXG2057F007-BLACK-DESERT-BOOT-011490714979-thumbnail-1560x1560-70.jpg',
         price: 280,
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110,
+        name: 'Brown Suedes',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A9GMU30000249-TAN-SUEDE-BOOT-04-thumbnail-1560x1560-70.jpg',
+        price: 160,
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        name: 'Black X Veras',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A9GMU30000251-BLACK-SUEDE-SHOE-04-thumbnail-1216x1216-70.jpg',
         price: 160,
-      },
-      {
-        id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160,
-      },
-      {
-        id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160,
-      },
-      {
-        id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190,
-      },
-      {
-        id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200,
       },
     ],
   },
@@ -122,125 +76,115 @@ const SHOP_DATA = {
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        name: 'Black Harrington',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/C7GMU13319144-BLACK-COTTON-HARRINGTON-JACKET-01-thumbnail-1216x1216-70.jpg',
         price: 125,
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        name: 'Green Harrington',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/C7GMU13319144-KHAKI-COTTON-HARRINGTON-JACKET-01-thumbnail-1560x1560-70.jpg',
         price: 90,
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        name: 'Blue button up Mac',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/C7GMU13329146-NAVY-BUTTON-UP-MAC-01-thumbnail-1216x1216-70.jpg',
         price: 90,
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        name: 'Balck Smiley',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/S9GMU11000136-BLACK-SMILEY-COTTON-PARKA-01-thumbnail-1216x1216-70.jpg',
         price: 165,
-      },
-      {
-        id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185,
       },
     ],
   },
-  womens: {
+  tshirts: {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'tshirts',
+    routeName: 'tshirts',
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: 'Colour block zip neck',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A9GMU15000032-NAVY-COLOUR-BLOCK-ZIP-NECK-T-SHIRT-01-thumbnail-1216x1216-70.jpg',
         price: 25,
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        name: 'Printed Logo',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A9GMU15000140-GREEN-PRINTED-LOGO-T-SHIRT-01-thumbnail-1216x1216-70.jpg',
         price: 20,
       },
       {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        name: 'Black Paisley',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/C7GMU95729107-BLKVIN-PAISLEY-PRINT-LOGO-T-SHIRT-01-thumbnail-1216x1216-70.jpg',
         price: 80,
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        name: 'Off White and Green',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A9GMU15000143-OFFWHI-PRETTY-GREEN-PRINTED-T-SHIRT-01-thumbnail-1216x1216-70.jpg',
         price: 80,
-      },
-      {
-        id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45,
-      },
-      {
-        id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135,
-      },
-      {
-        id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20,
       },
     ],
   },
-  mens: {
+  specials: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'specials',
+    routeName: 'specials',
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        name: 'WL01 M65 dyed',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A8WMU14789764KHAKI-thumbnail-1216x1216-70.jpg',
         price: 325,
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20,
+        name: 'WL02 M65 dyed',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A8WMU14789764PURPLE-thumbnail-1560x1560-70.jpg',
+        price: 300,
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25,
+        name: 'WL03 M65 dyed',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A8WMU14789764BLACK-thumbnail-1560x1560-70.jpg',
+        price: 325,
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25,
+        name: 'WL04 M65 dyed',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A8WMU14789764NAVY-thumbnail-1560x1560-70.jpg',
+        price: 325,
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40,
+        name: 'WL05 Black overhead',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A8WMU1480976NAVY-thumbnail-1216x1216-70.jpg',
+        price: 340,
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25,
+        name: 'WL06 Green overhead',
+        imageUrl:
+          'https://www.prettygreen.com/media/__sized__/products/A8WMU1480976KHAKI-thumbnail-1216x1216-70.jpg',
+        price: 325,
       },
     ],
   },

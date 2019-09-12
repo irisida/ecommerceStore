@@ -6,7 +6,7 @@ A live demo of this repo can be found on heroku [here](https://pgmock.herokuapp.
 
 ## The technology stack
 
-The technology stack used is Javascript. React & JSX. There is no real backend to the project. The small item sample was rivial enough to be able to create a simple ref object and consume it within the app without much in the way of performace considerations.
+The technology stack used is Javascript. React & JSX. The small item sample dataset was trivial enough to be able to create a simple ref object and consume it within the app without much in the way of performace considerations. That means at this stage there is no real ackend to the demo site.
 
 The application demos the following features:
 

@@ -14,3 +14,4 @@ The application demos the following features:
 - redux is used for state management.
 - ReactComponent for SVG handling.
 - Stripe CLI for faux payment gateway handling (sample card and details provided)
+- Some components updated to use the Styled-Components library as a learning exercise.

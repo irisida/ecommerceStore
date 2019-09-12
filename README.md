@@ -1,6 +1,6 @@
 ![alt text](https://www.coneysdesignerwear.co.uk/wp-content/uploads/2017/05/pg-linear-4x-100.jpg 'Pretty green logo')
 
-This purpose of the repo is to demo a mock ecommerce store for the clothing label Pretty Green. The real website for the band can be found [here.](https://www.prettygreen.com/)
+This purpose of the repo is to demo a mock ecommerce store for the clothing label Pretty Green. The real website for the brand can be found [here.](https://www.prettygreen.com/)
 
 A live demo of this repo can be found on heroku [here](https://pgmock.herokuapp.com/)
 
